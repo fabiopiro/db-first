@@ -1,0 +1,19 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+marca - stringa - VARCHAR(20) - NOTNULL
+modello - stringa - VARCHAR(20) - NOTNULL
+colore - stringa - VARCHAR(20) - NOTNULL
+anno - data - YEAR - NOTNULL
+targa - stringa - VARCHAR(7) - PRIMARY KEY
+chilometri - intero - MEDIUMINT - NOTNULL 
+costo - float - DECIMAL(9, 2) - NOTNULL
+carburante - stringa - VARCHAR(10) - NOTNULL
+trasmissione - stringa - VARCHAR(10) - NOTNULL
+cavalli - intero - SMALLINT - NOTNULL
+peso/potenza - SMALLINT - NOTNULL
+emissioni - stringa - VARCHAR(10) {EURO 5} - NOTNULL
+
+prima immatricolazione - data - DATE - NOTNULL
+utlima revisione - data - DATE - NOTNULL
+validità revisione - data - DATE - NOTNULL
+numero di propietari precedenti - TINYINT - NOTNULL
